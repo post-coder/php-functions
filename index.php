@@ -24,6 +24,17 @@ function checkIfEven($number)
 
 
 
+// voglio memorizzare questa mail e renderla disponibile a tutte le pagine del mio sito
+$userEmail = "gabrielspanu96@gmail.com";
+
+// inizio la sessione
+session_start();
+
+$_SESSION['userEmail'] = $userEmail;
+
+$_SESSION['userPassword'] = "123456";
+
+
 
 
 

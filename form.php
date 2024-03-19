@@ -1,3 +1,21 @@
+<?php
+
+// voglio prendere il valore della mail che ho salvato dall'altra pagina in una variabile di sessione?
+
+// faccio partire la sessione
+session_start();
+
+if(isset($_SESSION['userEmail'])) {
+
+    echo $_SESSION['userEmail'];
+    echo $_SESSION['userPassword'];
+} else {
+    header('Location: ./index.php');
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
