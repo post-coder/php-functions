@@ -9,7 +9,7 @@ function saluta($userName) {
 
     // se vogliamo passare dei dati ad una funzione DOBBIAMO utilizzare i parametri
 
-    return "Ciao a tutti! Sono $userName <br>";
+    echo "Ciao a tutti! Sono $userName <br>";
 
 }
 
@@ -43,7 +43,7 @@ function checkIfEven($number) {
 
                 if( checkIfEven($i) ) {
 
-                    echo saluta($i);
+                    saluta($i);
 
                 }
 
